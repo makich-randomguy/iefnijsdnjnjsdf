@@ -35,7 +35,7 @@ jobs:
 
       - name: Build JRE8 for Android aarch64
         run: |
-          export AUTOCONF_EXTRA_ARGS="--with-milestone=fcs --with-update-version=382 --with-build-number=b05"
+          export AUTOCONF_EXTRA_ARGS="--with-milestone=fcs --with-update-version=381 --with-build-number=b09"
           bash ci_build_arch_aarch64.sh
         shell: bash
 
